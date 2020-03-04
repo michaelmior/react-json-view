@@ -33,7 +33,7 @@
         "ignore-styles": "^5.0.1",
         "istanbul": "^0.4.5",
         "jsdom": "^11.11.0",
-        "mocha": "^4.0.1",
+        "mocha": "^7.1.0",
         "moment": "^2.22.2",
         "node": "8.4.0",
         "node-sass": "^4.9.0",
