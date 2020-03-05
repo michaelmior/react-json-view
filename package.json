@@ -61,7 +61,6 @@
         "build:demo": "webpack --config webpack/webpack.config-demo.js -p --display-error-details --progress --optimize-minimize",
         "now-build": "npm run build:demo",
         "dev": "webpack-dev-server --config webpack/webpack.config-dev.js --open",
-        "modules:debug": "./docker/debug.sh",
         "modules:tree": "webpack --config webpack/webpack.config.js --json ",
         "modules:size-analyzer": "webpack --config webpack/webpack.config.js --json | webpack-bundle-size-analyzer",
         "test": "npm run test:unit && npm run test:coverage",
