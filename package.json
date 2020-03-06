@@ -37,7 +37,7 @@
         "moment": "^2.22.2",
         "node": "13.10.1",
         "node-sass": "^4.9.0",
-        "nyc": "^11.9.0",
+        "nyc": "^15.0.0",
         "react": "^16.4.0",
         "react-dom": "^16.4.0",
         "react-github-button": "^0.1.11",
