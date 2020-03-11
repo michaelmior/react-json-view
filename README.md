@@ -28,7 +28,7 @@ import ReactJson from 'react-json-view'
 ### Installation Instructions
 Install this component with [NPM](https://www.npmjs.com/package/react-json-view).
 ```shell
-npm install --save react-json-view
+yarn add  react-json-view
 ```
 Or add to your package.json config file:
 ```json
@@ -117,9 +117,9 @@ Returning `false` from a callback method will prevent the src from being affecte
 # clone this repository
 git clone git@github.com:mac-s-g/react-json-view.git && cd react-json-view
 # install dependencies
-npm install --save-dev
+yarn
 # run the dev server with hot reloading
-npm run dev
+yarn dev
 ```
 Webpack Dev Server should automatically open up http://localhost:2000 in your web browser.  If it does not, open a browser and navigate to port 2000. The hot reloader will automatically reload when files are modified in the `/src/` directory.
 
@@ -127,11 +127,11 @@ Webpack Dev Server should automatically open up http://localhost:2000 in your we
 
 ```bash
 # run the build (note: you may need to use `sudo` priveledges to run the build successfully)
-npm run build
+yarn build
 ```
 Please add tests for your code before posting a pull request.
 
-You can run the test suite with `npm run test` or `npm run test:watch` to automatically reload when files are modified.
+You can run the test suite with `yarn test` or `yarn test:watch` to automatically reload when files are modified.
 
 ### Inspiration
 I drew a ton of design ideas from [react-json-tree](https://github.com/alexkuz/react-json-tree).  Thanks to the RJT contributors for putting together an awesome component!

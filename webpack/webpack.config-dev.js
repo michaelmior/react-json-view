@@ -30,8 +30,7 @@ const config = {
     libraryTarget: "umd"
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.optimize.UglifyJsPlugin()
+    new webpack.HotModuleReplacementPlugin()
   ],
   resolve: {
     extensions: [".js", ".json", ".css", ".scss"]
