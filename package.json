@@ -38,8 +38,7 @@
         "jsdom": "^16.2.0",
         "mocha": "^7.1.0",
         "moment": "^2.22.2",
-        "node": "16.6.0",
-        "node-sass": "^4.9.0",
+        "node-sass": "^6.0.1",
         "nyc": "^11.9.0",
         "react": "^16.4.0",
         "react-dom": "^16.4.0",
@@ -105,5 +104,8 @@
     "directories": {
         "docs": "docs",
         "test": "test"
+    },
+    "engines": {
+        "node": "16.x"
     }
 }
