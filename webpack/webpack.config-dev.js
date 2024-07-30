@@ -16,12 +16,12 @@ const config = {
     "react-dom": "ReactDOM"
   },
   devServer: {
-    host: "localhost",
+    host: "0.0.0.0",
     port: 2000,
+    allowedHosts: "all",
     hot: true,
-    inline: true,
     historyApiFallback: true,
-    contentBase: PATHS.build
+    static: PATHS.build
   },
   output: {
     path: PATHS.build,
